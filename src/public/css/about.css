@@ -1,0 +1,43 @@
+.about {
+    overflow-x: hidden;
+}
+
+.about-container .about-title {
+    font-family: 'Recursive', sans-serif;
+    font-weight: 700;
+}
+
+.about-container .about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-container .about-content .about-content-info {
+    font-family: 'Raleway', sans-serif;
+    width: 50%;
+}
+
+.about-container .about-content .about-content-img img {
+    width: 300px;
+}
+
+@media(max-width: 890px) {
+    
+    .about-container .about-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-container .about-content .about-content-info {
+        width: 80%;
+        text-align: center;
+        padding: 25px !important;
+    }
+
+    .about-container .about-content .about-content-img img {
+        width: 300px;
+        padding: 25px !important;
+    }
+
+}
