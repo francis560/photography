@@ -17,14 +17,14 @@ route.post('/contact', (req, res) => {
         port: 465,
         secure: true,
         auth: {
-            user: "dblaktin30@gmail.com",
-            pass: "vnxmtusawpcvaxao"
+            user: "cuentaparatest72@gmail.com",
+            pass: "ukpjmpxkoxvxzehq"
         }
     });
 
     const mailOptions = {
         from: `${correo}`,
-        to: "dblaktin24@gmail.com",
+        to: "...",
         subject: `(${nombre}) Mensaje de trabajo`,
         text: `${asunto}`
     }
